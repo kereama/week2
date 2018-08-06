@@ -50,15 +50,91 @@ namespace ConsoleApp1
             //Console.ReadLine();
 
             // task three. ask for users first and last name then display them together
-            Console.WriteLine("task3 He aha to ingoa tuatahi: ");
-            string fname = Console.ReadLine();
-            Console.WriteLine("he aha to ingoa whanau: ");
-            string lname = Console.ReadLine();
-            // Display the full name together 
-            Console.WriteLine("Tena koe {0} {1}", fname, lname);
+            //Console.WriteLine("task3 He aha to ingoa tuatahi: ");
+            //string fname = Console.ReadLine();
+            //Console.WriteLine("he aha to ingoa whanau: ");
+            //string lname = Console.ReadLine();
+            //// Display the full name together 
+            //Console.WriteLine("Tena koe {0} {1}", fname, lname);
 
-            Console.WriteLine("Kua mutu, Nga mihi");
+            //Console.WriteLine("Please enter a number");
+            //int num1 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Please enter another number");
+            //int num2 = int.Parse(Console.ReadLine());
+
+            //if (num1 > num2)
+            //{
+            //    Console.WriteLine("{0} is larger", num1);//1
+            //    Console.WriteLine($"{num1} is bigger");//2
+            //    Console.WriteLine(num1 + " is bigger");//3
+            //}
+            //else
+            //    Console.WriteLine($"{num2} is bigger");
+
+
+            //int Mynum, UserNum; //this declares your variables. comma aftter each vaiable to add 
+            //Console.WriteLine("enter my numer: ");
+            //Mynum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("guess my number: ");
+            //UserNum = int.Parse(Console.ReadLine());
+
+            //if (Mynum > UserNum)
+            //{
+            //    Console.WriteLine($"{Mynum} is bigger");
+            //    Console.ReadLine();
+            //}
+
+            //else if (Mynum == UserNum)
+            //{
+            //    Console.WriteLine("cracked it");
+            //    Console.ReadLine();
+            //}
+
+            //else if (Mynum < UserNum)
+            //{
+            //    Console.WriteLine("{0}less than", Mynum);
+            //    Console.ReadLine();
+            //}
+
+            int Grade;
+            Console.WriteLine("Enter your grade");
+
+            Grade = int.Parse(Console.ReadLine());
+
+            if (Grade >= 90)
+                Console.WriteLine("A+");
+
+            else if (Grade >= 80)
+                Console.WriteLine("A");
+
+            else if (Grade >= 70)
+                Console.WriteLine("B+");
+
+            else if (Grade >= 60)
+                Console.WriteLine("B");
+
+            else if (Grade >= 50)
+                Console.WriteLine("C");
+
+            else if (Grade <= 50)
+                Console.WriteLine("F");
+
+
             Console.ReadLine(); 
+
+
+
+
+
+
+
+            //    Console.WriteLine("Kua mutu, Nga mihi");
+            //Console.ReadLine(); 
+
+
+
+
 
 
 
