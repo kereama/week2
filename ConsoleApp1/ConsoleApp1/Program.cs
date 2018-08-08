@@ -97,31 +97,51 @@ namespace ConsoleApp1
             //    Console.ReadLine();
             //}
 
-            int Grade;
-            Console.WriteLine("Enter your grade");
+            //int Grade;
+            //Console.WriteLine("Enter your grade");
 
-            Grade = int.Parse(Console.ReadLine());
+            //Grade = int.Parse(Console.ReadLine());
 
-            if (Grade >= 90)
-                Console.WriteLine("A+");
+            //if (Grade >= 90 && Grade <=100)
+            //    Console.WriteLine("A+");
 
-            else if (Grade >= 80)
-                Console.WriteLine("A");
+            //else if (Grade >= 80 && Grade <=89)
+            //    Console.WriteLine("A");
 
-            else if (Grade >= 70)
-                Console.WriteLine("B+");
+            //else if (Grade >= 70 && Grade <=79)
+            //    Console.WriteLine("B+");
 
-            else if (Grade >= 60)
-                Console.WriteLine("B");
+            //else if (Grade >= 60 && Grade <=69)
+            //    Console.WriteLine("B");
 
-            else if (Grade >= 50)
-                Console.WriteLine("C");
+            //else if (Grade >= 50 && Grade <=59)
+            //    Console.WriteLine("C");
 
-            else if (Grade <= 50)
-                Console.WriteLine("F");
+            //else if (Grade <= 50 && Grade <=49
+            //    )
+            //    Console.WriteLine("F");
+
+            /*---Question 3---*/
+            //this was my att
+            //    Console.WriteLine("Enter a number");
+            //    Number = int.Parse(Console.ReadLine());
+            //    if (Number %2 == 0)
+            //    {
+            //        Console.Write("Entered Number is an Even Number: ");
+            //        Console.Read();
+            //    }
+            //    //else
+            //    //{
+            //    //    Console.Write("Entered Number is an Odd Number");
+            //    //    Console.Read();
+            //    //}
+            //}
+
+            Question6();
+            
+            
 
 
-            Console.ReadLine(); 
 
 
 
@@ -141,5 +161,26 @@ namespace ConsoleApp1
             Console.ReadLine();
 
         }
+
+        public static void Question6()
+        {
+            Console.Write("Enter a Number : ");
+            int num = int.Parse(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.Write("Entered Number is an Even Number");
+                Console.Read();
+            }
+            else
+            {
+                Console.Write("Entered Number is an Odd Number");
+                Console.Read();
+            }
+        }
+        //public static int Question5()
+        //{
+        //    int temp = 0;
+        //    return temp;
+        //}
     }
 }
