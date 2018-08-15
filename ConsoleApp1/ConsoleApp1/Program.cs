@@ -137,9 +137,9 @@ namespace ConsoleApp1
             //    //}
             //}
 
-            Question6();
-            
-            
+            //Question6();
+
+
 
 
 
@@ -158,29 +158,54 @@ namespace ConsoleApp1
 
 
 
+            //    Console.ReadLine();
+
+            //}
+
+            //public static void Question6()
+            //{
+            //    Console.Write("Enter a Number : ");
+            //    int num = int.Parse(Console.ReadLine());
+            //    if (num % 2 == 0)
+            //    {
+            //        Console.Write("Entered Number is an Even Number");
+            //        Console.Read();
+            //    }
+            //    else
+            //    {
+            //        Console.Write("Entered Number is an Odd Number");
+            //        Console.Read();
+            //    }
+            //}
+            //public static int Question5()
+            //{
+            //    int temp = 0;
+            //    return temp;
+            //}
+
+            Console.WriteLine("He aha taku kararehe tino pai rawa atu?");
             Console.ReadLine();
 
-        }
+             void Main()
+            {
+                string value = "Kurii";
+            
+                switch (value)
+                {
+                    case "Kurii":
+                        Console.WriteLine("Ae, Kei te tika koe!");
+                        break;
+                    case "Ngeru":
 
-        public static void Question6()
-        {
-            Console.Write("Enter a Number : ");
-            int num = int.Parse(Console.ReadLine());
-            if (num % 2 == 0)
-            {
-                Console.Write("Entered Number is an Even Number");
-                Console.Read();
+                    case "Raiona":
+
+                    case "ika":
+                        Console.WriteLine("Kao");
+                        break;
+
+                    default:
+                        Console.WriteLine("Default kao");
+                }
+                Console.ReadLine();
+
             }
-            else
-            {
-                Console.Write("Entered Number is an Odd Number");
-                Console.Read();
-            }
-        }
-        //public static int Question5()
-        //{
-        //    int temp = 0;
-        //    return temp;
-        //}
-    }
-}
